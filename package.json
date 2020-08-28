@@ -1,0 +1,19 @@
+{
+  "name": "scaling-palm-tree",
+  "version": "1.0.0",
+  "description": "<h1>Scaling Palm Tree</h1><br> Sample voting system with nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vucong2409/scaling-palm-tree.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vucong2409/scaling-palm-tree/issues"
+  },
+  "homepage": "https://github.com/vucong2409/scaling-palm-tree#readme"
+}
