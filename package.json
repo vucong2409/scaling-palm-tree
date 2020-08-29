@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/vucong2409/scaling-palm-tree/issues"
   },
-  "homepage": "https://github.com/vucong2409/scaling-palm-tree#readme"
+  "homepage": "https://github.com/vucong2409/scaling-palm-tree#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "http": "0.0.1-security",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
 }
