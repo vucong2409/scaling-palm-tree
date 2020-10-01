@@ -1,7 +1,14 @@
-const http = require('http');
-let app = http.createServer((req,res) => {
-	res.writeHead(200, {'Content-Type': 'text/html'});
-	res.end('html/register.html');
-})
-app.listen(3000, '127.0.0.1');
-console.log("Running");
+const express = require("express");
+const path = require("path");
+
+const app = express();
+const PORT = "3000";
+
+app.listen(PORT, "localhost",() => {
+	console.log(`Listening at http://localhost:${PORT}`);
+	app.use(express.static(path.join(__dirname, "public")));
+});
+
+app.get("/",(req,res) => {
+    res.sendFile("index.html", { root: __dirname });
+});
